@@ -1,15 +1,6 @@
 "use client"
 
 import * as React from "react"
-
-import {
-  NavigationMenu,
-  NavigationMenuItem,
-  NavigationMenuLink,
-  NavigationMenuList,
-  navigationMenuTriggerStyle,
-} from "@/components/ui/navigation-menu"
-
 export function MainNavigation() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = React.useState(false)
   
